@@ -36,7 +36,7 @@ function showPostLabel(sPL_label,e){
    if(!isDOM) { elm.insertAdjacentElement('afterEnd', div); } else { elm.parentNode.insertBefore(div, this.nextSibling); }
 	var elm2 = document.getElementById("showItemLabel");
 	elm2.style.display = "inline";
-	elm2.innerHTML = "<br/><img alt='Indicator' src='http://2d0ec971-a-62cb3a1a-s-sites.googlegroups.com/site/archivesiugi/for_post/Loading-2-1.gif'/>&nbsp;&nbsp;Loading...";
+	elm2.innerHTML = "<br/><img alt='Indicator' src='http://2.bp.blogspot.com/-rYDNUOcB8_w/Wj05yItOlFI/AAAAAAAANPo/wwKT9IaIaTcd-Os_7Cc9uiUwgvMoCHHOwCLcBGAs/s1600/Loading-2-1.gif'/>&nbsp;&nbsp;Loading...";
 	var script = document.createElement('script');
 	script.src = home_page+"feeds/posts/summary/-/"+sPL_label.replace(/ /g,"%20")+"?start-index=1&max-results="+max_rc_posts+1+"&alt=json-in-script&callback=showentry";
 	script.type = "text/javascript";
